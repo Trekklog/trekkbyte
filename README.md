@@ -1,4 +1,4 @@
-## trekkbyte V1.0 `Digital Storage Convertor`
+## trekkbyte V1.0 `Digital Storage Converter`
 
 >>****Conversions you can do:****
 
@@ -70,11 +70,18 @@ ___
 >> ****Examples:****
 
 ```javascript
+// converted values
 trekkbyte(3.4, "MB", 'Kibit') // { ..., converted: 26562.5 }
 trekkbyte(44, "b", 'B') // { ..., converted: 5.5 }
 trekkbyte(0.04, "TB", 'GiB') // { ..., converted: 37.25290298461914 }
 trekkbyte(28716, "Mibit", 'MiB') // { ..., converted: 3589.5 }
+
+// get all storage values in a object
+trekkbyte.trekkbyteList() //  {b: { storage: 0.125, name: 'bit', ... }}
+
 ```
+
+
 >> ****ML****
 
 010100200300203004004050060000700007008080
