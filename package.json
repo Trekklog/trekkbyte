@@ -1,0 +1,18 @@
+{
+  "name": "trekkbyte",
+  "version": "1.0.0",
+  "description": "Digital Storage Convertor",
+  "main": "byteMe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "digital",
+    "storage",
+    "convertor",
+    "bytes",
+    "bits"
+  ],
+  "author": "Trekkspace",
+  "license": "MIT"
+}
