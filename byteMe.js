@@ -14,3 +14,7 @@ exports.trekkbyte = (val, from, to) => {
         converted: converted
     }
 }
+
+exports.trekkbyteList = () => {
+    return trekkbyteMap
+}
